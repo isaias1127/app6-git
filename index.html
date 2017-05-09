@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sexta aplicacion</title>
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+ <!--grupo CSS-->
+ <link rel="stylesheet" href="css/tema-app6.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+ <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ <!--grupo JavaScript-->
+ <script src="js/jquery-1.11.2.min.js"></script>
+ <script src="js/jquery.mobile-1.4.5.min.js"></script>
+ <script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/descarga.jpg','imagenes/image s2.PNG','imagenes/batalla de puebla.jpg')">
+
+<div data-role="page" id="Principal" data-theme="a">
+   <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+    <h1>Batalla de Puebla</h1>
+  </div>
+   <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/1039929.jpg" alt="1039929" title="1039929" id="wows1_0"/></li>
+		<li><img src="data1/images/1336240048137_f.jpg" alt="1336240048137_f" title="1336240048137_f" id="wows1_1"/></li>
+		<li><img src="data1/images/batalla_de_puebla.jpg" alt="batalla de puebla" title="batalla de puebla" id="wows1_2"/></li>
+		<li><img src="data1/images/batalla.jpg" alt="batalla" title="batalla" id="wows1_3"/></li>
+		<li><img src="data1/images/crop.jpg" alt="crop" title="crop" id="wows1_4"/></li>
+		<li><img src="data1/images/descarga.jpg" alt="descarga" title="descarga" id="wows1_5"/></li>
+		<li><a href="http://wowslider.com/vi"><img src="data1/images/portadazaragoza.png" alt="css slider" title="portadaZARAGOZA" id="wows1_6"/></a></li>
+		<li><img src="data1/images/view.jpg" alt="view" title="view" id="wows1_7"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="1039929"><span><img src="data1/tooltips/1039929.jpg" alt="1039929"/>1</span></a>
+		<a href="#" title="1336240048137_f"><span><img src="data1/tooltips/1336240048137_f.jpg" alt="1336240048137_f"/>2</span></a>
+		<a href="#" title="batalla de puebla"><span><img src="data1/tooltips/batalla_de_puebla.jpg" alt="batalla de puebla"/>3</span></a>
+		<a href="#" title="batalla"><span><img src="data1/tooltips/batalla.jpg" alt="batalla"/>4</span></a>
+		<a href="#" title="crop"><span><img src="data1/tooltips/crop.jpg" alt="crop"/>5</span></a>
+		<a href="#" title="descarga"><span><img src="data1/tooltips/descarga.jpg" alt="descarga"/>6</span></a>
+		<a href="#" title="portadaZARAGOZA"><span><img src="data1/tooltips/portadazaragoza.png" alt="portadaZARAGOZA"/>7</span></a>
+		<a href="#" title="view"><span><img src="data1/tooltips/view.jpg" alt="view"/>8</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">bootstrap carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+
+  <div>
+  <div>
+   <ul data role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>Batalla del 5 de mayo</h2>
+         <p>¿Por que se dio esta batalla?</p>
+       </a> 
+     </li>
+     <li class="ui-first-child ui-last-child">
+         <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+            <h2>Antecedentes de la batalla de Puebla</h2>
+            <p>Se muestran los antecedentes</p>
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+        <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+              <h2>La historia de la batalla de Puebla</h2>
+              <p>Muestra la historia</p>
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+        <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Personajes de la batalla de Puebla</h2>
+                 <p>¿Quienes fueron los principales personajes?</p>
+        </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+        <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+                 <h2>Consecuencias</h2>
+                 <p>Muestra las consecuencias sobre la batalla</p>
+        </a>
+     </li>
+     <br>
+  
+<br>
+   </ul>
+  </div>
+  </div>
+         <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+            <div>
+               <img src="imagenes/batalla.png" width="46" height="46">
+            </div>
+            <div>
+               <h4>Aplicacion Seis</h4>
+               <h4>Isaias Tellez Fabian</h4>
+            </div>
+        </div>
+      </div>
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                <h1>Batalla del 5 de mayo</h1>
+              </div>
+              <div data-role="content" align="center">
+              <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image34','','imagenes/descarga.jpg',1)"><img src="imagenes/batalla de puebla.jpg" width="379" height="196" id="Image34"></a>
+<div>
+      <h2>Debido principalmente a la cantidad de deudas, , Inglaterra y España subscribieron el Convenio de Londres, por el cual se comprometieron a intervenir por el uso de la fuerza en México para reclamar sus derechos como acreedores, mientras tanto el Presidente Benito Juárez declaró suspendidos los compromisos adquiridos y aplazó pagar la deuda a las naciones europeas. Tras desembarcar en Veracruz, España e Inglaterra aceptaron las explicaciones mexicanas dadas en los Tratados de La Soledad, los cuales tenían como fundamento, el respeto a la soberanía territorial, el reconocimiento de las naciones acreedoras al Estado Mexicano, la entrada al terreno de las negociaciones para llegar a acuerdos en común, que beneficiaría tanto a la República Mexicana, como a los intereses de las potencias invasoras, y por último, se permitiría que los soldados de los tres países se establecieran en las ciudades mexicanas de Orizaba, Córdoba y Tehuacán durante las negociaciones, debido a lo malsano del clima imperante en el puerto de Veracruz; en caso contrario, los soldados de las tres potencias se retirarían a las costas de Veracruz para así comenzar las hostilidades. </h2>
+                 </div>   
+      </div>
+              
+           
+   <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button">
+        <h2>Mas informacion</h2>
+      </a>
+    </li>
+    </ul>
+   </div>
+  </div>
+              <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+               <img src="imagenes/batalla.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Dos, ITF</h4>
+              </div>
+</div>
+                      
+            
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                  <h1>Antecedentes</h1>
+               </div>
+               <br>
+               <div data role="content" align="center">
+               <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image30','','imagenes/image s2.PNG',1)"><img src="imagenes/image s1.JPG" width="250" height="352" id="Image30"></a>
+<div>
+       <h2>En 1857, ocurrió la Guerra de Reforma : un conflicto armado donde los liberales afrontaron los conservadores para impedir que la nueva constitución restituya a los militares y a la Iglesia los privilegios que habían perdido con las Leyes de Reforma. Benito Juárez, gobernador de Oaxaca al momento del conflicto, representaba a los liberales y  Ignacio Comonfort, presidente de la República, representaba a los conservadores. Despues de 3 años, a principio del año 1961, los liberales ganaron la guerra y el Presidente Benito Juárez instauró su gobierno en la Ciudad de México.
+
+Pero despues de 3 años de conflicto, México está  financieramente en ruinas y tiene deudas enormes que los conservadores contrataron con banqueros europeos para  pagar la guerra. La deuda era de 80 millones de pesos; 69 millones para los ingleses, 9 millones para los españoles y 2 millones para Francia. 
+ </h2>
+                  </div>
+
+            </div>
+            <div data-role="main" class="ui-content" align="center">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Antecedente</h1>
+     <div>
+        <img src="imagenes/batalla ante.jpg" width="30%" height="30%">
+     </div>
+   </div> 
+  </div>
+  <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button">
+        <h2>Mas informacion</h2>
+      </a>
+    </li>
+    </ul>
+   </div>
+  </div>
+ 
+               <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+               <img src="imagenes/batalla.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Dos, ITF</h4>
+              </div>
+</div>
+                
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+           <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+              <h1>Historia</h1>
+           </div>
+           <div data-role="content" align="center">
+           <br>
+           <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image29','','imagenes/batalla de puebla.jpg',1)"><img src="imagenes/batalla.jpg" width="379" height="196" id="Image29"></a>
+<div>
+      <h2>Antes del 5 de Mayo, el día  28 de abril de 1862, tuvo lugar un enfrentamiento conocido como la Batalla de las Cumbres entre el Ejército Expedicionario Francés y el Ejército Mexicano. En este conflicto hubo cerca de 500 bajas francesas en contra de apenas 50 bajas mexicanas.</h2></div>
+         </div>
+         <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>2 de Mayo</h1>
+      <div>
+       <p>El 2 de mayo parte el Ejército Expedicionario Francés desde San Agustín del Palmar en Veracruz con rumbo a cruzar la Sierra Madre Oriental y dirigirse hacia Puebla, era paso obligado para llegar a la capital mexicana. </p>
+       <br>
+     </div>
+     <div>
+        <img src="imagenes/crop.jpg" width="30%" height="30%">
+     </div>
+   </div> 
+  </div>
+  
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Batallón de la Guardia Nacional del Estado de Puebla</h1>
+      <div>
+       <p>El 6o. Batallón de la Guardia Nacional del Estado de Puebla, bajo el mando del coronel Juan Nepomuceno Méndez, fue el primer cuerpo del Ejército de Oriente en hacer frente a los franceses y  rechazar el  ataque. </p>
+       <br>
+     </div>
+     <div>
+        <img src="imagenes/banderas1.jpg" width="30%" height="30%">
+     </div>
+   </div> 
+  </div>
+   <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+      <a href="http://www.dias-festivos-mexico.com.mx/dias-feriados/batalla-puebla/" data-role="button">
+        <h2>Mas informacion</h2>
+      </a>
+    </li>
+    </ul>
+   </div>
+  </div>
+  
+           <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+               <img src="imagenes/batalla.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Seis, ITF</h4>
+              </div>
+</div>
+           
+           
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+              <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                  <h1>Personajes de la batalla</h1>
+              </div>
+              <div data-role="content" align="center">
+                 <div>
+                    <h2>Principales personajes de la batalla de Puebla por México</h2>
+                 </div>
+              </div>
+              <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>General Ignacio Zaragoza </h1>
+     <div>
+         <img src="imagenes/zaragoza_ignacio_2.jpg" width="20%" height="20%">
+            </div>
+   </div> 
+  </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>General Porfirio Díaz</h1>
+     <div>
+        <img src="imagenes/diaz_porfirio_1867.jpg" width="20%" height="20%">
+     </div>
+   </div> 
+  </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Felipe Berriazábal</h1>
+     <div>
+        <img src="imagenes/felipe.jpg" width="20%" height="20%">
+     </div>
+   </div> 
+  </div>
+  <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Miguel Negrete</h1>
+     <div>
+         <img src="imagenes/Miguel_Negrete.jpg" width="15%" height="15%">
+     </div>
+   </div> 
+  </div>
+  
+  <div data-role="content" align="center">
+                 <div>
+                    <h2>Principales personajes de la batalla de Puebla por Francia</h2>
+                 </div>
+              </div>
+              <div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+     <h1>Charles Ferdinand de Latrille </h1>
+     <div>
+         <img src="imagenes/per1.jpg" width="15%" height="15%">
+            </div>
+   </div> 
+  </div>
+  <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+      <a href=http://luiguio1804.wixsite.com/batalladepuebla/personajes data-role="button">
+        <h2>Mas acerca de los personajes</h2>
+      </a>
+    </li>
+    </ul>
+   </div>
+  </div>
+
+          <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+               <img src="imagenes/batalla.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Dos, ITF</h4>
+              </div>
+</div>
+  
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+               <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+                  <h1>Consecuencias</h1>
+               </div>
+               <br>
+               <div data role="content" align="center">
+              
+<div>
+       <h2>Mientras se libraba la batalla, en el Palacio Nacional y en la Ciudad de México en general se vivía un ambiente de tensa espera. Lo último que se sabía de Puebla era el telegrama enviado por Zaragoza hacia las 12:30 del día, en el que avisaba que el fuego de artillería de ambos lados había iniciado. Luego, silencio. Ante la incertidumbre, el gobierno había hecho salir precipitadamente al general Florencio Antillón al mando de los Batallones de Guanajuato, quedando como guardianes de la capital sólo 2,000 hombres del Regimiento de Coraceros Capitalinos y algunos centenares de milicianos pobremente armados. Si las tropas guanajuatenses se perdían, la capital quedaría desprotegida.
+ </h2>
+                  </div>
+
+            </div>
+  <div data-role="main" class="ui-content" align="center">
+<div style="width:40%;">
+  <ul data-role="controlgroup" data-type="vertical" data-theme="b">
+    <li class="ui-first-child ui-last-child">
+      <a href=https://es.wikipedia.org/wiki/Batalla_de_Puebla data-role="button">
+        <h2>Mas informacion</h2>
+      </a>
+    </li>
+    </ul>
+   </div>
+  </div>
+ 
+               <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+              <div>
+               <img src="imagenes/batalla.png" width="46" height="46">
+            </div>
+                 <h4>Aplicacion Dos, ITF</h4>
+              </div>
+</div>          
+         
+             
+             
+             
+</body>
+</html>
